@@ -10,10 +10,7 @@ frontend:
         - echo "STORE_PATH=$(pnpm store path)" >> .env
     build:
       commands:
-        - env | grep -e CHAIN_ID >> .env.production
-
         - pnpm install
-        - pnpm db:generate
         - pnpm build
         # Clean up unnecessary files to reduce artifact size
         - find .next -name "*.map" -type f -delete || true
