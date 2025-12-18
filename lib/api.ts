@@ -1,7 +1,7 @@
 import type { GitHubMeResponse, LoginByTokenResponse } from './types'
 
-// const BASE_URL = 'https://huv3z8uax1.execute-api.us-east-1.amazonaws.com/dev'
-const BASE_URL = 'http://localhost:3001'
+const BASE_URL = 'https://huv3z8uax1.execute-api.us-east-1.amazonaws.com/dev'
+// const BASE_URL = 'http://localhost:3001'
 
 /**
  * Get GitHub user information
